@@ -1,0 +1,388 @@
+body{
+
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background: url(Imagenes/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor
+{
+    max-width: 1980px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+   
+    
+    
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 20PX;
+}
+
+.menu_2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_menu 
+{
+    display: flex;
+    list-style: none;    
+}
+
+li
+{
+    margin-right: 30px;
+
+    .item_seleccion{
+        background-color: #000090;
+    }
+    
+}
+
+nav.linkedin
+{
+    
+    background-color: transparent;
+    padding-top: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+a.ELinkedin
+{
+    background-color: transparent;
+   
+}
+
+img.imglink{
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+}
+
+
+
+li a:hover,
+li a.active {
+    background: #000090;
+    transition: 1s;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.contenedor_titulo{
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+}
+
+#titulo{
+    width: 50%;
+    background: linear-gradient(10deg, #2e648bad, transparent);
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    padding-top: 20PX;
+}
+
+h1{
+   font-size: 50px; 
+   margin: 0;
+   
+    -webkit-text-stroke-color: black;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+    -webkit-text-stroke-color: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: snow;
+    background-color: #2fcdcd;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.subfondo
+{
+    height: 100vh;
+    background-image: url(./Imagenes/fondo2.jpg);
+    background-size: cover;
+
+}
+
+
+.sobremi_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: 150px;
+
+    p {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: justify;
+        width: 50%;
+        margin-bottom: 0%;
+    }
+
+    .sobremi_foto {
+        border-radius: 20%;
+        width: 300px;
+        justify-content: space-around;
+    }
+
+   
+}
+
+.tabla_apt
+{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+tbody{
+    min-height: 100%;
+}
+
+.tabla_cursos{
+
+    margin-top: 100px;
+    display: grid;
+    
+    place-items: center; 
+
+    td:hover {
+        h3{
+            font-size: 0px;
+        }
+    }
+
+    a:hover {
+        width: 200px;
+        height: 150px;
+        padding: 3px;
+        margin: 0;
+        border: 3px solid;
+        font-size: 0;       
+    }
+    
+    .analistac, .disenioweb, .sql, .iva,
+    .inglesi, .inglesii, .excelb, .excela,
+    .excelp, .disenio, .data_ana, .con_ban
+    {
+        height: 100px;
+        width: 150px;
+        display: flex;
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+    
+
+    .analistac
+    {
+        background-image: url(./Imagenes/Cursos/Analista\ Contable.jpg);
+    }
+
+    .disenioweb
+    {
+        background-image: url(./Imagenes/Cursos/Diseño\ web.png);
+    }
+
+    .sql
+    {
+        background-image: url(./Imagenes/Cursos/SQL.png);
+    }
+
+    .iva
+    {
+        background-image: url(./Imagenes/Cursos/Taller\ practico\ de\ IVA.jpg);
+    }
+
+    .inglesi
+    {
+        background-image: url(./Imagenes/Cursos/Ingles\ I.jpg);
+    }
+
+    .inglesii
+    {
+        background-image: url(./Imagenes/Cursos/Ingles\ II.jpg);
+    }
+  
+    .excelb
+    {
+        background-image: url(./Imagenes/Cursos/IAC\ -\ Excel\ Basico\ e\ Intermedio.jpg);
+    }
+
+    .excela
+    {
+        background-image: url(./Imagenes/Cursos/IAC\ -\ Excel\ Avanzado.jpg);
+    }
+
+    .excelp
+    {
+        background-image: url(./Imagenes/Cursos/Excel\ -\ Power\ BI.jpg);
+    }
+
+    .disenio
+    {
+        background-image: url(./Imagenes/Cursos/Diseño\ grafico\ digital.jpg);
+    }
+
+    .data_ana
+    {
+        background-image: url(./Imagenes/Cursos/Data\ Analytics.png);
+    }
+
+    .con_ban
+    {
+        background-image: url(./Imagenes/Cursos/Conciliación\ Bancaria.jpg);
+    }
+
+    h3
+    {
+    font-size: 20px;
+    text-align: center;
+      
+    }
+}
+
+
+.box_contacto{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    
+
+
+}
+
+.contacto {
+    width: min-content;
+    background-size: cover;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    padding: 25px;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);      
+    position: relative;
+}
+
+.formulario{
+    width : 500px;
+    display: inline-block;
+    
+}
+
+.Formulario_contacto{
+ 
+    color: rgba(0,0,0,0.7);
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.formulario_input, .formulario_label,
+.formulario_enviar, .formulario_label_mensaje{
+ display: block;
+ width: 100%;
+ 
+    
+}
+
+.formulario_input{
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 30px;  
+    background: transparent;
+}
+
+.formulario_input:focus + .formulario_label{
+    border: ipx solid rgba(42, 27, 175, 0.7);
+    
+}
+
+.formulario_label{
+    text-align: start;
+    font-size: 1.1em;
+    position: absolute;
+    margin-top: -87px;
+    margin-left: 10px;
+    z-index: -20;
+}
+
+.formulario_label_mensaje{
+    text-align: start;
+    font-size: 1.1em;
+    position: absolute;
+    margin-top: -222px;
+    margin-left: 10px;
+    z-index: -20;
+}
+
+.formulario_enviar{
+    width: 100px;
+    height: 40px;
+    margin-inline: auto;
+}
+
+.formulario_input:focus{
+    background-color: aliceblue;
+}
+
+.formulario_input:focus + .formulario_label_mensaje{
+    border: ipx solid rgba(42, 27, 175, 0.7);
+    
+    
+}
+
+.volver
+{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.posicionar{
+    border: ipx solid rgba(42, 27, 175, 0.7);
+    margin-top: -87px;
+}
+
+
+
+

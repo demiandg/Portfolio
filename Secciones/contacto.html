@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchez Di Giovanni Damian - Contacto</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../Codigo.js"></script>
+</head>
+<body class="subfondo">
+    <div class="contenedor">
+        <div class="menu_2">
+            <p>Sanchez Di Giovanni Damian</p>
+            <nav>
+                <ul class="list_menu">
+                    <li>
+                        <a href="./sobre_mi.html">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a href="./aptitudes.html">Aptitudes</a>
+                    </li>
+                    <li>
+                        <a href="./cursos.html">Cursos</a>
+                    </li>
+                    <li>
+                        <a href="../index.html">Volver</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div  class="box_contacto">
+
+            <main class="contacto">
+                <form action="#" method="get" class="formulario">
+                 <h1 class="Formulario_contacto">Formulario de contacto</h1>  
+                  
+                        <input type="text" class="formulario_input" id="txtnombre" required>
+                        <label for="txtnombre" class="formulario_label" >
+                            Nombre
+                        </label>
+                        
+                        <input type="text" class="formulario_input" id="txtcorreo" required>
+                        <label for="txtcorreo" class="formulario_label">
+                            Correo
+                        </label>
+
+                        <input type="text" class="formulario_input" id="txtelefono" required>
+                        <label  for="txtelefono" class="formulario_label">
+                            Telefono
+                        </label>
+                                          
+                        <textarea name="Mensaje" class="formulario_input" id="txtmensaje" cols="30" rows="10" required></textarea> 
+                        <label for="txtmensaje" class="formulario_label_mensaje">
+                            Mensaje
+                        </label>
+                    
+                        <input type="submit" value="Enviar" class="formulario_enviar" onclick="msjenviado()">
+                </form>
+                
+                
+        </main>
+        </div>
+        
+    </div>    
+</body>
+</html>
